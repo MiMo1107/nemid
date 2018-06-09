@@ -18,7 +18,7 @@ class ServiceProvider extends IlluminateServiceProvider
     {
         // Config files
         $this->publishes([
-            __DIR__.'/../config/nemid.php' => config_path('nodes/nemid.php'),
+            __DIR__.'/../config/nemid.php' => config_path('nemid.php'),
         ], 'config');
     }
 
